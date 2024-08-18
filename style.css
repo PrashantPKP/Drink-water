@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
 
-
 :root{
     --border-color:#144fc6;
     --fill-color:#6ab3f8;
@@ -19,16 +18,18 @@ body{
     flex-direction: column;
     align-items: center;
     margin-bottom: 40px;
-
 }
+
 h1{
     margin: 10px 0 0;
 
 }
+
 h3{
     font-weight: 400;
     margin: 10px 0;
 }
+
 .cup{
     background-color: #fff;
     border: 4px solid var(--border-color);
@@ -41,6 +42,7 @@ h3{
     flex-direction: column;
     overflow: hidden;
 }
+
 .cup.cup-small{
     height: 95px;
     width: 50px;
